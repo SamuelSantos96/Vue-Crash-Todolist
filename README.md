@@ -1,24 +1,33 @@
-# vue_crash_todolist
+# Vue Crash Todolist
 
-## Project setup
-```
-npm install
+Vue JS Crash Course
+
+Source: [Traversy Media at Youtube](https://www.youtube.com/watch?v=Wy9q22isx3U)
+
+# Setup
+
+```shell
+npm i -g @vue/cli
 ```
 
-### Compiles and hot-reloads for development
+# Create Project CLI Version
+
+```shell
+vue create app
 ```
+
+# Run Project CLI Version
+
+```shell
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+# Create Project UI Version
+
+```shell
+vue ui
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+# Run Project UI Version
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Go to the left nav bar and click 'Tasks' -> Choose 'serve' -> Click 'Run task' -> After running click 'Open app' on the right side
