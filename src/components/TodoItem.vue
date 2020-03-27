@@ -1,5 +1,6 @@
 <template>
-    <div class="todo-item">
+    <!-- If 'todo.completed' equals 'true' then the class 'is-complete' will be assign to this div -->
+    <div class="todo-item" v-bind:class="{ 'is-complete': todo.completed }">
         <p>{{ todo.title }}</p>
     </div>
 </template>
