@@ -10,6 +10,10 @@ Source: [Traversy Media at Youtube](https://www.youtube.com/watch?v=Wy9q22isx3U)
 npm i -g @vue/cli
 ```
 
+## VS Code Plugin
+
+Vetur by Pine Wu
+
 # Create Project CLI Version
 
 ```shell
