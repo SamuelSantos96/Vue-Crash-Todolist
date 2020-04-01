@@ -1,6 +1,7 @@
 <template>
     <div id="app">
         <Header />
+        <AddTodo />
         <Todos v-bind:todos="todos" v-on:del-todo="deleteTodo" />
     </div>
 </template>
@@ -8,10 +9,11 @@
 <script>
 import Header from './components/layouts/Header';
 import Todos from './components/Todos';
+import AddTodo from './components/AddTodo';
 
 export default {
     name: 'App',
-    components: { Header, Todos },
+    components: { Header, Todos, AddTodo },
     data() {
         return {
             todos: [
