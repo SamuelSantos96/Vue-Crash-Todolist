@@ -10,6 +10,12 @@ Source: [Traversy Media at Youtube](https://www.youtube.com/watch?v=Wy9q22isx3U)
 npm i -g @vue/cli
 ```
 
+Install UUID package to generate random IDs for this specific project
+
+```shell
+npm i uuid
+```
+
 ### VS Code Plugin
 
 Vetur by Pine Wu
