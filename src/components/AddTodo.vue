@@ -8,7 +8,8 @@
 </template>
 
 <script>
-import { v4 as uuidv4 } from 'uuid';
+// No longer needed because JSONPlaceholder gives us the ID
+// import { v4 as uuidv4 } from 'uuid';
 
 export default {
     name: 'AddTodo',
@@ -21,7 +22,7 @@ export default {
         addTodo(e) {
             e.preventDefault();
             const newTodo = {
-                id: uuidv4(),
+                // id: uuidv4(),
                 title: this.title,
                 completed: false
             };
