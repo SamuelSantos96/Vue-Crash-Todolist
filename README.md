@@ -35,3 +35,9 @@ vue ui
 # Run Project UI Version
 
 Go to the left nav bar and click 'Tasks' -> Choose 'serve' -> Click 'Run task' -> After running click 'Open app' on the right side
+
+# Turn Off SnoreToast Notifications
+
+While developing the web applications a pop up keeps appearing saying 'Build failed' or 'Build fixed'.
+
+Turn it off on OS Notifications.
